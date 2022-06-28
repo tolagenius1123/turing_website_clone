@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+/* .icon{
+
+} */
+
+.navbar-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-links a{
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size:17px;
+    color: black;
+}
+
+.nav-but{
+    border: thin;
+    border-radius: 5px ;
+    border-color:#4D77FF; ;
+    color: white;
+    background-color: #4D77FF;
+    margin-top: 0px;
+    padding: 13px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-but:hover {
+    background: #4700D8;
+    transition: 1s;
+}
+
+.apply{
+    display: inline;
+    line-height: 1;
+}
+
+.apply::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    color: #4D77FF;
+    background: #4D77FF;
+    display: inline-block;
+    margin: 0;
+    transition: 0.2s;
+}
+
+.apply:hover::after {
+    width: 100%;
+}
+
+.header{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.header-left{
+    width: 50%;
+    background-color: #fff;
+}
+
+.header-left h1{
+    margin-top: 15vw;
+    margin-left: 4vw;
+    position: relative;
+    font-size: 3rem;
+    
+}
+
+.header-left h3 {
+    position: relative;
+    bottom: 20px;
+    font-weight: lighter;
+    margin-left: 4vw;
+    font-size: 21px;
+
+}
+
+.header-left p{
+    margin-left: 4vw;
+}
+
+#ai {
+    color:#4D77FF;
+}
+
+#pa{
+    text-decoration: none;
+    color: #4D77FF;
+    font-size: 18px;
+}
+
+#btn2{
+    margin-left: 4vw;
+
+}
+
+.header-right{
+    width: 50%;
+    background-color: #fff;
+}
+
+.header-right img{
+    margin-top: 15vw;
+    width: 40vw;
+}
+
+.brands{
+    height: 50vh;
+}
+
+.brands p{
+    margin-left: 48px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.brands-icon img{
+    margin-left: 48px;
+}
+
+.world-section{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),url(images/world-img.jpg);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    text-align: center;
+    align-items: center;
+}
+
+.world-section h1{
+    color: #fff;
+    font-size: 50px;
+    display: inline;
+    position: relative;
+    top: 120px;
+    font-weight: 500;
+}
+
+.world-section h2{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 150px;
+    font-weight: 100;
+
+}
+
+.snippets{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.snip{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.snippets div img{
+    position: relative;
+    top: 20px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.boat-section{
+    height: 100vh;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.boat-section-left{
+    height: 80vh;
+    width: 50%;
+}
+
+.boat-section-left{
+    height: 80vh;
+    width: 50%;
+}
+
+.boat-section-right {
+    height: 80vh;
+    width: 50%;
+}
+
+#yatch{
+    height: 80%;
+    width: 90%;
+    margin: 20px;
+}
+
+.boat-section-right-content{
+    margin: 20px 50px;
+}
+
+.boat-section-right-content h2{
+    font-size: 35px;
+}
+
+.boat-section-right-content p{
+    font-size: 20px;
+    display: flex;
+}
+
+.boat-section-right-content img{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+
